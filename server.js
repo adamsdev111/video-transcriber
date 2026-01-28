@@ -8,7 +8,7 @@ import fetch from 'node-fetch';
 
 const execAsync = promisify(exec);
 const app = express();
-const PORT = 3847;
+const PORT = process.env.PORT || 3847;
 
 // Telegram config
 const TELEGRAM_BOT_TOKEN = '8551198821:AAG8shPqfDe9fSPpfKhfeSvyDRLumL4kWsw';
