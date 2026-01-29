@@ -128,6 +128,9 @@ app.get('/', (req, res) => {
 </head>
 <body>
   <div class="container">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="https://rackslabs.com/wp-content/uploads/2023/03/Logo-principal-Blanco-sin-fondo.svg" alt="Racks Labs" style="height: 40px;">
+    </div>
     <h1>🎬 Video Transcriber</h1>
     <p class="subtitle">Sube un video y Arvis te envia la transcripcion por Telegram</p>
     
